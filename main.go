@@ -1,7 +1,7 @@
 package main
 
 import (
-  "{pathToYourApp}/cmd"
+	"iptracker/cmd"
 )
 
 func main() {
