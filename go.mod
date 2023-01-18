@@ -1,4 +1,4 @@
-module iptracker
+module github.com/devlongs/iptracker
 
 go 1.19
 

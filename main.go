@@ -1,7 +1,7 @@
 package main
 
 import (
-	"iptracker/cmd"
+	"github.com/devlongs/iptracker/cmd"
 )
 
 func main() {

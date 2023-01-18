@@ -12,7 +12,13 @@ var traceCmd = &cobra.Command{
 	Short: "trace the ip",
 	Long: `trace the ip address`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("testing trace the ip")
+		if len(args) > 0 {
+			for _, ip := range args {
+				fmt.Println(ip)
+			}
+		} else {
+			fmt.Println("Please provide an IP address to trace")
+		}
 	},
 }
 
